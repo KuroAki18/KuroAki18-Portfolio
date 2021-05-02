@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KuroAki's Portfolio</title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+</head>
+<body class="bg-dark text-white">
+  <header>
+    <section class="menu bg-dark">
+      <div class="menu-left"><a href="#" class="logo">KuroAki's Portfolio</a></div>
+
+      <!-- --------------------mobile menu------------------------- -->
+      <div class="menu-bar" id="menu-open">
+        <i class="fa fa-bars menu-icon" id="menu-open"></i>
+      </div> 
+      <div class="modal-menu" id="modal-menu">
+        <div class="close">
+          <i class="fas fa-times" id="menu-close"></i>
+        </div>
+        <ul>
+        <li class="my-2"><a class="link" href="#">Home</a></li>
+        <li class="my-2"><a class="link" href="#about">About</a></li>
+        <li class="my-2"><a class="link" href="#service">Service</a></li>
+        <li class="my-2"><a class="link" href="#works">Works</a></li>
+        <li class="my-2"><a class="link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <!-- --------------------modile menu------------------------- -->
+
+      <!-- --------------------pc menu------------------------- -->
+      <div class="menu-right">
+        <a class="link mx-2" href="#">Home</a>
+        <a class="link mx-2" href="#about">About</a>
+        <a class="link mx-2" href="#service">Service</a>
+        <a class="link mx-2" href="#works">Works</a>
+        <a class="link mx-2" href="#contact">Contact</a>
+      </div>
+      <!-- --------------------pc menu------------------------- -->
+
+    </section>
+    <div class="header_img">
+      <img src="top-img.jpg" class="img-fluid header-img">
+      <p>Welcome to my portfolio.</p>
+    </div>
+    
+  </header>
+
+  <main class="mx-3">
+    <section class="text-center" id="about">
+      <h2 class="item">About</h2>
+      <h3 class="my-4">Profile</h3>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <p class="self p-4">私のポートフォリオサイトをご覧いただきありがとうございます。<br>
+              Web制作活動を行っておりますKuroAkiと申します。<br>
+              Webサイトの制作、メンテナンス等の業務に対応致しますのでお気軽にお問い合わせください。<br>
+              </p>
+            <dl>
+              <dt>Name：</dt>
+              <dd>KuroAki</dd>
+              <dt>Age：</dt>
+              <dd>26</dd>
+              <dt>Job：</dt>
+              <dd>大手繊維メーカー<br>機械系エンジニア</dd>
+            </dl>
+          </div>
+          <div class="col-12 col-md-6">
+            <img src="icon-img.jpg" alt="プロフィール画像" class="w-75 rounded mt-4">
+          </div>
+        </div>
+        <h3 class="my-3">Skills</h3>
+        <div class="row pt-3">
+          <div class="col-6 col-md-3">
+            <i class="fab fa-html5"></i>
+            <h4>HTML5</h4>
+          </div>
+          <div class="col-6 col-md-3">
+            <i class="fab fa-css3-alt"></i>
+            <h4>CSS3</h4>
+          </div>
+          <div class="col-6 col-md-3">
+            <i class="fab fa-js-square"></i>
+            <h4>jQuery</h4>
+          </div>
+          <div class="col-6 col-md-3">
+            <i class="fab fa-bootstrap"></i>
+            <h4>Bootstrap</h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="service" id="service">
+      <h2 class="item">Service</h2>
+      <div class="container">
+        <div class="row text-center">
+          <div class="col-12 col-lg-3 py-3 border">
+            <i class="fas fa-laptop-code"></i>
+            <h4 class="my-4">-Webサイト制作-</h4>
+            <p class="text">集客のためのサイト制作や、個人のホームページ制作などクライアント様のご要望は柔軟に承ります。現在、実績作りのため低価格で案件を承っております。</p>
+          </div>
+          <div class="col-12 col-lg-3 py-3 border">
+            <i class="fas fa-mobile-alt"></i>
+            <h4 class="my-4">-レスポンシブ対応-</h4>
+            <p class="text">スマホ・タブレット・パソコンなど多様化するデバイスに対し適正化を行い、視認性が高くストレスフリーなサイトを制作します。</p>
+          </div>
+          <div class="col-12 col-lg-3 py-3 border">
+            <i class="fas fa-tools"></i>
+            <h4 class="my-4">-メンテナンス-</h4>
+            <p class="text">「もっと見やすくしたい！」「構成を変更したい！」などどんな些細なご要望でも承ります。 効果的なサイトにするためは、定期的なメンテナンスが大切です。お気軽にご相談下さいませ！</p>
+          </div>
+          <div class="col-12 col-lg-3 py-3 border">
+            <i class="fas fa-comments"></i>
+            <h4 class="my-4">-ご提案-</h4>
+            <p class="text">「あのWEBサイトみたいに作って欲しい！」「もっとこうして欲しい！」などご要望は何でもお伝えくださいませ。
+              クライアント様のご要望に沿ったWEBサイトを提案させていただきます。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="works" id="works">
+      <h2 class="item pt-5">Works</h2>
+      <div class="container">
+        <div class="row  portfolio-item">
+          <div class="col-12 col-lg-5">
+            <a href="https://kuroaki18.github.io/KuroAki.Furniture-Design/" target="_blank"><img src="design1.jpg" class="w-100 mb-5"></a>
+          </div>
+          <div class="col-12 col-lg-7">
+            <table>
+              <tr>
+                <th>サイト名</th>
+                <td><a href="https://kuroaki18.github.io/KuroAki.Furniture-Design/" target="_blank" class="link">Furniture Design</a></td>
+              </tr>
+              <tr>
+                <th>使用言語</th>
+                <td>HTML/CSS/JavaScript(jQuery)</td>
+              </tr>
+              <tr>
+                <th>制作期間</th>
+                <td>2週間</td>
+              </tr>
+              <tr>
+                <th>コメント</th>
+                <td>
+                  本格的なインテリアの紹介サイトを制作致しました。<br>
+                  どのデバイスでも見やすいレイアウトを模索しながらサイト設計を行いました。<br>
+                  サイト内右上のメニューから別ページも是非ご覧になってみて下さい。<br>
+                  レスポンシブ対応、お問い合わせページ作成、Googleマップ埋め込みなども対応可能です。
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="row portfolio-item">
+          <div class="col-12 col-lg-5">
+            <a href="https://kuroaki18.github.io/Portfolio/" target="_blank"><img src="design2.jpg" class="w-100 mb-5"></a>
+          </div>
+          <div class="col-12 col-lg-7">
+            <table>
+              <tr>
+                <th>サイト名</th>
+                <td><a href="https://kuroaki18.github.io/Portfolio/" target="_blank" class="link">KuroAki's Portfolio（当サイトです）</a></td>
+              </tr>
+              <tr>
+                <th>使用言語</th>
+                <td>HTML/CSS/JavaScript(jQuery)</td>
+              </tr>
+              <tr>
+                <th>制作期間</th>
+                <td>2週間</td>
+              </tr>
+              <tr>
+                <th>コメント</th>
+                <td>
+                  現在の私のスキルを表現するためのポートフォリオサイトです。<br>
+                  シンプルで見やすいサイトになるように余白を揃えて統一感を出しました。<br>
+                  こちらのサイトもレスポンシブ対応しておりますので、是非画面サイズを変更してご覧になって下さい。<br>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <div class="row portfolio-item">
+          <div class="col-12 col-lg-5">
+            <a href="https://kuroaki18.github.io/KuroAki18-KuroAki.travel-blog-/" target="_blank"><img src="design3.jpg" class="w-100 mb-5"></a>
+          </div>
+          <div class="col-12 col-lg-7">
+            <table>
+              <tr>
+                <th>サイト名</th>
+                <td><a href="https://kuroaki18.github.io/KuroAki18-KuroAki.travel-blog-/" target="_blank" class="link">Travel Blog</a></td>
+              </tr>
+              <tr>
+                <th>使用言語</th>
+                <td>HTML/CSS</td>
+              </tr>
+              <tr>
+                <th>制作期間</th>
+                <td>1週間</td>
+              </tr>
+              <tr>
+                <th>コメント</th>
+                <td>
+                  2カラム形式のブログサイトです。<br>
+                  パソコンやタブレットでは2カラムですが、スマートフォンでは見やすくなるように1カラム形式のレイアウトになります。<br>
+                  個人的に発信していくためのブログの制作もお任せ下さい。<br>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2 class="item pt-5">Contact</h2>
+      <p class="col-12 text-center">ご依頼・ご相談等は下記リンクよりご連絡下さいませ。</p>
+      <div class="col-12 text-center mb-5">
+        <a href="https://crowdworks.jp/public/employees/4138347" class="contact-page" target="_blank"><button type="button" class="btn btn-light mx-3 mb-5">Crowd Works</button></a>
+        <a href="https://www.lancers.jp/profile/KuroAki18?ref=side_menu" class="contact-page" target="_blank"><button type="button" class="btn btn-light mx-3 mb-5">Lancers</button></a>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p class="m-0 py-3">©2021 KuroAki design</p>
+    <script src="script.js"></script>
+  </footer>
+</body>
+</html>
